@@ -299,7 +299,7 @@ p {
   flex-direction: column;
   padding: 30px;
   border-radius: 10px;
-  background-image: url(./img/img-1.png);
+  background-image: url(./img/FireShot\ Capture\ 041\ -\ \ -\ .png);
   background-size: cover;
   margin: 10px 5%;
   position: relative;
@@ -322,8 +322,8 @@ p {
   width: 80px;
   margin-bottom: 20px;
 }
-#services .service-item h2 {
-  font-size: 2rem;
+#services .service-item h3 {
+  font-size: 1.7rem;
   /* color: white; */
   margin-bottom: 10px;
   text-transform: uppercase;
@@ -333,41 +333,39 @@ p {
   text-align: left;
 }
 
-#services .servis-item h2{
-	color: cyan;
+#services .servis-item h3 {
+  color: cyan;
 }
 
-.service-item h2{
-	text-decoration: underline; /* Tambahkan garis bawah */
-	font-style: italic; /* Membuat teks miring */
-	/* Warisi warna dari elemen induk atau elemen global */
+.service-item h3 {
+  text-decoration: underline; /* Tambahkan garis bawah */
+  font-style: italic; /* Membuat teks miring */
+  /* Warisi warna dari elemen induk atau elemen global */
 }
 
-
-
-.service-item h2:hover{
-	color: white; 
-	font-style: normal;
-	text-decoration: none; /* Hapus garis bawah saat dihover */
-	/* font-weight: bold; Buat teks menjadi bold saat dihover */
+.service-item h3:hover {
+  color: white;
+  font-style: normal;
+  text-decoration: none; /* Hapus garis bawah saat dihover */
+  /* font-weight: bold; Buat teks menjadi bold saat dihover */
 }
 /* End Services Section */
 
 /* Projects section */
 
 .project-item h1 {
-	text-decoration: underline; /* Tambahkan garis bawah */
-	font-style: italic; /* Membuat teks miring */
-	color: cyan;
-	/* Warisi warna dari elemen induk atau elemen global */
+  text-decoration: underline; /* Tambahkan garis bawah */
+  font-style: italic; /* Membuat teks miring */
+  color: cyan;
+  /* Warisi warna dari elemen induk atau elemen global */
 }
 
 .project-item h1:hover {
-	color: white; 
-	font-style: normal;
-	text-decoration: none; /* Hapus garis bawah saat dihover */
-	/* font-weight: bold; Buat teks menjadi bold saat dihover */
-  }
+  color: white;
+  font-style: normal;
+  text-decoration: none; /* Hapus garis bawah saat dihover */
+  /* font-weight: bold; Buat teks menjadi bold saat dihover */
+}
 
 #projects .projects {
   flex-direction: column;
@@ -748,15 +746,15 @@ p {
 @media (max-width: 425px) {
   cta {
     font-size: 1rem;
-	padding: 10px 30px;
-}
+    padding: 10px 30px;
+  }
 }
 @media (max-width: 375px) {
-	cta {
-	padding: 10px 30px;
+  cta {
+    padding: 10px 30px;
   }
 }
 
-.pembuatLink{
-	color: cyan;
+.pembuatLink {
+  color: cyan;
 }
