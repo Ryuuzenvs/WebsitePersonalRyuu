@@ -324,13 +324,32 @@ p {
 }
 #services .service-item h2 {
   font-size: 2rem;
-  color: white;
+  /* color: white; */
   margin-bottom: 10px;
   text-transform: uppercase;
 }
 #services .service-item p {
   color: white;
   text-align: left;
+}
+
+#services .servis-item h2{
+	color: cyan;
+}
+
+.service-item h2{
+	text-decoration: underline; /* Tambahkan garis bawah */
+	font-style: italic; /* Membuat teks miring */
+	/* Warisi warna dari elemen induk atau elemen global */
+}
+
+
+
+.service-item h2:hover{
+	color: white; 
+	font-style: normal;
+	text-decoration: none; /* Hapus garis bawah saat dihover */
+	/* font-weight: bold; Buat teks menjadi bold saat dihover */
 }
 /* End Services Section */
 
@@ -736,4 +755,8 @@ p {
 	cta {
 	padding: 10px 30px;
   }
+}
+
+.pembuatLink{
+	color: cyan;
 }
