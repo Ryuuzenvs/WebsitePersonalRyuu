@@ -441,6 +441,19 @@ p {
 
 /* galeri section */
 /* buatlah agar setiap foto pada galery section, akan terlihat sama seperti pada about section */
+#galeri-amel .col-right a{
+  /* buat tombol cta menjadi ditengah */
+  /* position: absolute; */
+  /* top: 50%; */
+  /* left: 50%; */
+  /* transform: translate(-50%, -50%); */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* margin-right: 100px; */
+  display: inline;
+}
+
+
 #galery-amel .about {
   flex-direction: column-reverse;
   text-align: center;
@@ -465,14 +478,14 @@ p {
 #galery-amel .col-right p {
   margin-bottom: 20px;
 }
-#galery-amel .col-right .cta {
-  color: black;
+/* #galery-amel .col-right .cta { */
+  /* color: black;
   margin-bottom: 50px;
   padding: 10px 20px;
   font-size: 2rem;
   width: 10;
   margin-left: 100px;
-}
+} */
 #galery-amel .col-left .about-img {
   height: 100%;
   width: 100%;
